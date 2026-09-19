@@ -18,7 +18,6 @@ FieldOps is a field service management platform designed for companies that mana
 - Minimal APIs (no controllers)
 - CQS pattern with `Result<T>` response type
 - Single PostgreSQL database with schema separation per module
-- No cross-module project references, plain Guid FKs between domains
 - FluentValidation on all inbound requests
 - JWT Bearer authentication with HttpOnly cookie transport
 
